@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Password Generator</title>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<div class="box">
+<h2>Random Password Generater</h2>
+<input type="text" name="" placeholder="Your New Password" id="password" readonly>
+<div id="button" class="btn1"onclick="genPassword()">
+Generate
+</div>
+</div>
+<script src="./javascript.js"></script>
+</body>
+<style>
+body {
+margin: auto;
+background-color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+min-height: 100vh;
+}
+.box{
+background-color: grey;
+padding: 70px;
+border-style: dashed;
+border-radius: 30px;
+}
+.box h2{
+margin-bottom: 40px;
+text-align: center;
+font-size: 26px;
+color: white;
+font-family: sans-serif;
+}
+input {
+padding: 20px;
+height: 50px;
+width: 400px;
+border-radius: 111px;
+border: none;
+border: 2px black;
+outline: none;
+font-size: 22px;
+}
+input::placeholder{
+font-size: 23px;
+}
+#button {
+font-family: sans-serif;
+font-size: 15px;
+margin-top: 40px;
+border: 2px solid white;
+border-radius: 200px;
+padding: 5px;
+width: 150px;
+height: 50px;
+text-align: center;
+background-color: black;
+display: flex;
+color: Grey;
+justify-content: center;
+align-items: center;
+}
+
+</style>
+</html>
